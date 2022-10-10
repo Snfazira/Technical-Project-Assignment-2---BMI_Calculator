@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: bisque;
+}
+span {
+    color: darkgoldenrod;
+}
+.wrapper{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    padding: 15px;
+    background: brown;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.judul{
+    margin-top: 80px;   
+}
+
+.judul h2{
+    color: darkred;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.judul h4{
+    color: darkred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+button{
+    color: blanchedalmond;
+    padding: 10px;
+    border: 2px solid bisque;
+    background-color: darkred;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
